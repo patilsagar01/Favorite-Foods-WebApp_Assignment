@@ -1,0 +1,103 @@
+<!--  Code by SAGAR PATIL -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fevorite Food App</title>
+
+    <!--   Internal CSS   -->
+
+    <style>
+body{
+    padding:0px;
+    margin:0px;
+    background-color:#41B3A3;
+}
+header ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+header li {
+  float: left;
+  margin: 10px;
+}
+
+ header li a {
+  display: block;
+  
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: #111;
+}
+      .text-content a{
+        text-decoration:none;
+        font-size: 20px;
+        color:black;
+      }
+      .images{
+        width:50%;
+        margin:0 auto;
+      }
+      .labels{
+        margin-left:210px;
+        margin-bottom:40px;
+        font-size: 20px;
+      }
+      .fooditem{
+        width:500px;
+        height:400px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!--   Header content for Nav bar  -->
+
+    <header>
+      <ul>
+        <li><a href="#">Index</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </header>
+
+      <!--  Main content of website  -->
+
+    <main>
+    <div class="main">
+      <div class="text-content">
+        <h2>Top 5 Favourite Foods</h2>
+        <ul>
+          <li><a href="#pavbhaji">Pavbhaji</a></li>
+          <li><a href="#misal">Misal</a></li>
+          <li><a href="#manchuriyan">Manchuriyan</a></li>
+          <li><a href="#burger">Burger</a></li>
+          <li><a href="#biryani">Chicken Biryani</a></li>
+        </ul>
+      </div> 
+      <div class="images">
+        <div id="pavbhaji"><img src="./img/pavbhaaji.jpg" alt="pavbhaaji img" class="fooditem"></div>
+        <p class="labels">Pavbhaji</p>
+        <div id="misal"><img src="./img/Misal.jpg" class="fooditem"/></div>
+        <p class="labels">Misal</p>
+        <div id="manchuriyan"><img src="./img/manchuriyan.jpg" class="fooditem"/></div>
+        <p class="labels">Manchuriyan</p>
+        <div id="burger"><img src="./img/burger.jpg" class="fooditem"/></div>
+        <p class="labels">Burger</p>
+        <div id="biryani"><img src="./img/biryani.jpg" class="fooditem"/></div>
+        <p class="labels">Chicken Biryani</p>
+      </div>
+    </div>
+  </main>
+  </body>
+</html>
+
